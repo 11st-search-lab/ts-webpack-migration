@@ -4,7 +4,7 @@
 
 해당 저장소는 [TypeScript React Conversion Guide](https://github.com/Microsoft/TypeScript-React-Conversion-Guide#typescript-react-conversion-guide)를 기반으로 작성되었습니다.
 
-## Chapter
+## ✅ Chapter
 
 - [Understand the existing JavaScript project](https://github.com/microsoft/TypeScript-React-Conversion-Guide#understand-the-existing-javascript-project)
 - [Add TypeScript compiler to build pipeline](https://github.com/microsoft/TypeScript-React-Conversion-Guide#add-typescript-compiler-to-build-pipeline)
