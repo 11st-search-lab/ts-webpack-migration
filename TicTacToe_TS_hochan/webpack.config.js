@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/app.jsx',
+  entry: './src/app.tsx',
   output: {
     filename: './bundle.js'
   },
@@ -16,5 +16,6 @@ module.exports = {
     "react": "React",
     "react-dom": "ReactDOM",
   },
-  devtool: "source-map"
+  devtool: "source-map",
+  mode: "development"
 }
