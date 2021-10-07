@@ -1,16 +1,22 @@
 import React from "react";
 
-export class GameStateBar extends React.Component<{}, { gameState: string }> {
+import { GameState } from "./constants";
+
+interface GameStateBarState {
+  gameState: GameState;
+}
+
+export class GameStateBar extends React.Component<{}, GameStateBarState> {
   constructor(props: {}) {
     super(props);
     this.state = { gameState: "" };
   }
 
-  handleGameStateChange(e: CustomEvent) {
+  private handleGameStateChange(e: CustomEvent) {
     this.setState({ gameState: e.detail });
   }
 
-  handleRestart(e: Event) {
+  private handleRestart(e: Event) {
     this.setState({ gameState: "" });
   }
 
